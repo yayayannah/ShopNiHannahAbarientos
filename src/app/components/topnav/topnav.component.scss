@@ -2,10 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #EAE8DF;
     height: 50px;
 }
 
+//mostly for text decorations
 li, a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -14,15 +14,22 @@ li, a{
     text-decoration: none;
 }
 
+// bar top nav (shape)
 .topnav-container{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
+    background-color: #EAE8DF;
 }
 
 .navLinks{
     list-style: none;
+}
+
+.user{
+  margin-top: 15px;
+
 }
 
 .navLinks li{
@@ -46,7 +53,7 @@ li, a{
     transition: all 0.3 ease 0;
   }
 
-  button:hover, li a:hover{
+  li a:hover{
     background-color: rgba(206, 206, 206, 0.705);
   }
 
