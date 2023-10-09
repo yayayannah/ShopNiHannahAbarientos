@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Roboto+Slab:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+nav{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  background: whitesmoke;
+  width: 90px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.logo-container{
+  text-align: center;
+  transition: all 0.5s ease;
+  margin: 10px 0 0 10px;
+}
+
+// WORDS
+a{
+  color: #4F4A33;
+  font-size: 20px;
+  display: table;
+  width: 300px;
+  padding: 10px;
+
+  position: relative;
+  margin-left: 80px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.topIcon, .btmIcon{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-left: 2rem;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.sideNav-topItems {
+  position: absolute;
+  top: 12px;
+  margin-left: 10px;
+  margin-top: 7rem;
+}
+
+.sideNav-bottomItems{
+position: absolute;
+bottom: 0;
+}
+
+// HOVER
+
+a:hover{
+  background: rgba(160, 160, 160, 0.219);
+}
+
+nav:hover{
+  width: 300px;
+  transition: all 0.5s ease;
+}
+
+
+
+
