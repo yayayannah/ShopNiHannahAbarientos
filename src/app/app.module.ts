@@ -11,10 +11,12 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { TopnavComponent } from './components/topnav/topnav.component';
 import { ScreenComponent } from './components/screen/screen.component';
 import { ComponentsModule } from './components/component.module';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
