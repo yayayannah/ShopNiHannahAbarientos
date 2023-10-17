@@ -8,8 +8,8 @@
     margin: 0;
     width: 35%;
     height: 35%;
-    margin-left: 48%;
-    margin-top: 7%;
+    margin-left: 55%;
+    margin-top: 6%;
 }
 
 .slider{
@@ -19,7 +19,8 @@
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     box-shadow: 0 1rem 1.5rem -0.75rem ;
-    border-radius: .5rem;
+    border-radius: 1.5rem;
+    min-height: 70vh;
 }
 
     img{
@@ -51,4 +52,10 @@
     .slider-nav a:hover
     {
         opacity: 1;
+    }
+
+    @media only screen and (max-width: 750px) {
+        .container{
+            display: none;
+        }
     }
